@@ -23,10 +23,10 @@ Module Program
         Dim myHost As String = args(0).Split(":")(0)
         Dim myPort As Integer = args(0).Split(":")(1)
         If Not Connect(myHost, myPort) Then
-            Console.WriteLine("SMBT90T Unable to connect to remote host")
+            Console.WriteLine("SBMT90T Unable to connect to remote host")
             End
         Else
-            Console.WriteLine("SMBT90I Connected to remote host.")
+            Console.WriteLine("SBMT90I Connected to remote host.")
         End If
         LoadJCL(args(1))
         IOStream.Close()
