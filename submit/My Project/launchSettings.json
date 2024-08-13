@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "submit": {
+      "commandName": "Project",
+      "commandLineArgs": "s370:3505 scott.jcl"
+    }
+  }
+}
