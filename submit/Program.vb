@@ -122,7 +122,7 @@ Module Program
         End Select
         Console.Write(MsgID)
         If Right(MsgID, 3) = "99I" Then
-            Console.ForegroundColor = ConsoleColor.Blue
+            Console.ForegroundColor = ConsoleColor.Cyan
         Else
             Console.ForegroundColor = ConsoleColor.White
         End If
