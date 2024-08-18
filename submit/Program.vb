@@ -5,7 +5,7 @@ Imports System.Net.Sockets
 Imports System.Net.Sockets.TcpClient
 Imports System.Text
 Module Program
-    Dim build As String = "0.0.1"
+    Dim build As String = "0.0.2"
     Public RemoteHost As New TcpClient
     Public IOStream As NetworkStream
     Sub Main(args As String())
